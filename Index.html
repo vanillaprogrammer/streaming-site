@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vanilla Streaming Site</title>
+    <!-- ******************* Bootstrap Css Cdn*************************** -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- ****************************favicon cdn*************************** -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%23000000%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%22101%22>🎬</text></svg>" />
+
+    <!-- **************************font awesome ******************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- *********************owl carousel cdn**************************** -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   
+
+    <!-- *************************Css Link*************************** -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+ 
+    <!-- ******************header Start *************************** -->
+<header>
+    <nav class="navbar navbar-expand-lg   ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo-removebg-preview.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: white;">হোম</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">নাটক</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    সিনেমা
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">বাংলা মুভি</a></li>
+                  <li><a class="dropdown-item" href="#">কলকাতা মুভি</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">টিভি</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">গান</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">সাবস্ক্রাইব করুন</a>
+              </li>
+            </ul>
+          </div>
+
+          <button type="button" class=" head-btn">লগ ইন</button>
+        </div>
+
+
+
+
+      </nav>
+</header>
+
+    <!-- ****************************header end********************** -->
+
+   <!-- ***************************banner  section  start ********** -->
+   <div id="carouselExampleFade" class="carousel slide carousel-fade banner" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active">
+        <img src="img/banner/1633331933981_mukhosh_2560x720_32x9Images.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/1655199544637_dour2560x720_32x9Images.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/1651681939018_boli_2560x7201_32x9Images.jpg" class="d-block w-100" alt="...">
+      </div> 
+      <div class="carousel-item">
+        <img src="img/banner/1655569632093_refugee_2560x720_32x9Images.jpg" class="d-block w-100" alt="...">
+      </div> <div class="carousel-item">
+        <img src="img/banner/1YEeYyJU8ra.jpg" class="d-block w-100" alt="...">
+      </div> <div class="carousel-item">
+        <img src="img/banner/hnyq71dQGpx.jpg" class="d-block w-100" alt="...">
+      </div> <div class="carousel-item">
+        <img src="img/banner/W1SwqW0TUoX.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item ">
+        <img src="img/banner/1627303710352_mohanagar_jumbo2560x720_6_32x9Images.jpg" class="d-block w-100" alt="...">
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+   <!-- ***************************banner section  end ******************** -->
+
+<!-- ************* live tv section start************************** -->
+<section class="live-sec">
+
+  <div class="container">
+    <h3 class="ht">লাইভ টিভি </h3>
+
+  </div>
+  <div class="owl-carousel owl-theme owl-cars">
+    <div class="item">
+      <a href="https://www.youtube.com/user/zeebangla" target="_blank">   
+        <img src="img/News/7w40lq1WdE7.png" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/c/EkattorTelevision" target="_blank">   
+        <img src="img/News/C8NNjamMfbE.png" alt="" >
+       </a>
+    </div>  
+    <div class="item">
+      <a href="https://www.youtube.com/c/BongoNatoks" target="_blank">   
+        <img src="img/News/EAGBDQOxvot.png" alt="" >
+       </a>
+    </div>  
+    <div class="item">
+      <a href="https://www.youtube.com/c/BBCNews" target="_blank">   
+        <img src="img/News/f4UHrJW7uMl.png" alt="" >
+       </a>
+    </div>  
+    <div class="item">
+      <a href="https://www.youtube.com/c/zeecinemachannel" target="_blank">   
+        <img src="img/News/ffKelVF14sZ.png" alt="" >
+       </a>
+    </div>  
+  
+    <div class="item">
+      <a href="https://www.youtube.com/c/IndependentTelevision" target="_blank">   
+        <img src="img/News/FMc0BurRLWO.png" alt="" >
+       </a>
+    </div>  
+    <div class="item">
+      <a href="https://www.youtube.com/c/GaanBanglaTV" target="_blank">   
+        <img src="img/News/gbsN0iCM75t.png" alt="" >
+       </a>
+    </div>  
+
+    <div class="item">
+      <a href="https://www.youtube.com/c/Ntvbdnews" target="_blank">   
+        <img src="img/News/YjE9uxooYbK.png" alt="" >
+       </a>
+    </div>  
+
+    <div class="item">
+      <a href="https://www.youtube.com/c/RtvLiveBD" target="_blank">   
+        <img src="img/news/OqnYBfjaz21.png" alt="" >
+       </a>
+    </div>  
+    
+    <div class="item">
+      <a href="https://www.youtube.com/c/DBCNEWSTV" target="_blank">   
+        <img src="img/news/zVuHEN51v13.png" alt="" >
+       </a>
+    </div>  
+  
+   
+  </div>
+</section>
+
+
+<!-- ************* live tv section end************************** -->
+
+<!-- ************************Movie Section Start ************************ -->
+<section class="movie">
+
+  <div class="container">
+    <h3 class="hm">বাংলা মুভি </h3>
+
+  </div>
+  <div class="owl-carousel owl-theme owl-cars movie-car">
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=yvUCSoN9Zv8" target="_blank">   
+        <img src="img/bangla movie/dhaka attack.jpg" alt="" >
+       </a>
+    </div>
+
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=OxbW3-HtVb8" target="_blank">   
+        <img src="img/bangla movie/dour.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=uTrCgrA034A" target="_blank">   
+        <img src="img/bangla movie/mohanagar.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=mwMXMQ7at7E" target="_blank">   
+        <img src="img/bangla movie/musafir.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=EUnQZTofMo0" target="_blank">   
+        <img src="img/bangla movie/nodorai.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=v4X2HIaPYQU" target="_blank">   
+        <img src="img/bangla movie/password.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=qXQ5P5rVaj0" target="_blank">   
+        <img src="img/bangla movie/rahana.jpg" alt="" >
+       </a>
+    </div>
+   
+
+  </div>
+
+  <div class="owl-carousel owl-theme owl-cars movie2">
+   
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=N4m3qNCGohw" target="_blank">   
+        <img src="img/bangla movie/tan.jpg" alt="" >
+       </a>
+    </div>
+
+    <div class="item">
+      <a href="-https://www.youtube.com/watch?v=4KMjamCUvFM" target="_blank">   
+        <img src="img/bangla movie/taqdir.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=08zdaQXx8uw" target="_blank">   
+        <img src="img/bangla movie/warning.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=W9BUCL4g1e0" target="_blank">   
+        <img src="img/bangla movie/fSFAaygY3ml.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=kUUUsvHbCw8" target="_blank">   
+        <img src="img/bangla movie/MV5BZDEzMTQwZjctMzQ4Mi00NjQ0LTlmYWItNGE4NjE2NjJmZDEyXkEyXkFqcGdeQXVyOTQ0MDUwOTM@._V1_FMjpg_UX1000_.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=_FOx0vfv84w" target="_blank">   
+        <img src="img/bangla movie/sabrina_.jpg" alt="" >
+       </a>
+    </div>
+ 
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=uTrCgrA034A" target="_blank">   
+        <img src="img/bangla movie/mohanagar.jpg" alt="" >
+       </a>
+    </div>
+
+   
+ 
+   
+  
+   
+  </div>
+</section>
+
+
+
+<!-- ************************Movie Section End************************ -->
+
+<!-- *************** banner section 1 start here**************************** -->
+<section class="banner01">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active ">
+        <div class="first"></div>
+      <div class="banner-mid">
+<div class="banner-left">
+
+</div>
+<div class="banner-right">
+  <img src="img/banner/W1SwqW0TUoX.jpg" alt="">
+</div>
+      </div>
+
+      </div>
+     
+      <div class="carousel-item  ">
+        <div class="send"></div>
+      <div class="banner-mid">
+<div class="banner-left">
+
+</div>
+<div class="banner-right">
+  <img src="img/banner/PWuwstqecpZ.jpg" alt="">
+</div>
+      </div>
+
+      </div>
+      <div class="carousel-item active ">
+        <div class="thirt"></div>
+      <div class="banner-mid">
+<div class="banner-left">
+
+</div>
+<div class="banner-right">
+  <img src="img/banner/peQZzUNOwkF.jpg" alt="">
+</div>
+      </div>
+
+      </div>
+   
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+ 
+
+<!-- ***************banner section 1 end here**************************** -->
+
+
+
+
+
+
+<!-- ******************************************kolkata movie start here*********************** -->
+
+<section class="movie01">
+
+  <div class="container">
+    <h3 class="hm">কলকাতা মুভি</h3>
+
+  </div>
+  <div class="owl-carousel owl-theme owl-cars movie-kol">
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=KfJYCmEPdK8" target="_blank">   
+        <img src="img/kolkata movie/amazonobhijaan.jpg" alt="" >
+       </a>
+    </div>
+
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=o-Az9dxnQF8" target="_blank">   
+        <img src="img/kolkata movie/baisheshrabonp.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=rh_4_yB_-mg" target="_blank">   
+        <img src="img/kolkata movie/chaamp.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=w54LYEZE5A0" target="_blank">   
+        <img src="img/kolkata movie/chadar pahar.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=kUUUsvHbCw8" target="_blank">   
+        <img src="img/kolkata movie/ekattor.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=Ny8fxSoFHkw" target="_blank">   
+        <img src="img/kolkata movie/golondaaj.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=W9BUCL4g1e0" target="_blank">      
+        <img src="img/kolkata movie/nabab.jpg" alt="" >
+       </a>
+    </div>
+   
+
+  </div>
+
+  <div class="owl-carousel owl-theme  movie20">
+   
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=PtWnNS23QNg" target="_blank">   
+        <img src="img/kolkata movie/proloy.jpg" alt="" >
+       </a>
+    </div>
+
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=yl6ywRz5hgg" target="_blank">   
+        <img src="img/kolkata movie/robibar.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=5tYW4u_7Vt0" target="_blank">   
+        <img src="img/kolkata movie/villain.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=qXQ5P5rVaj0" target="_blank">   
+        <img src="img/bangla movie/rahana.jpg" alt="" >
+       </a>
+    </div>
+   
+    <div class="item">
+      <a href="-https://www.youtube.com/watch?v=4KMjamCUvFM" target="_blank">   
+        <img src="img/bangla movie/taqdir.jpg" alt="" >
+       </a>
+    </div>
+   
+  
+   
+  </div>
+</section>
+
+
+<!-- ******************************************kolkata movie end here*********************** -->
+
+
+<!-- ********************bangla natok section start ******************** -->
+<section class="movie">
+
+  <div class="container">
+    <h3 class="hm">বাংলা নাটক</h3>
+
+  </div>
+  <div class="owl-carousel owl-theme owl-cars movie-car">
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=TtR8Kx0SvYU" target="_blank">   
+        <img src="img/bangla natok/bng.jpg" alt="" >
+       </a>
+    </div>
+
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=s34txmlshKQ" target="_blank">   
+        <img src="img/bangla natok/chorar upor batpar.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=euLvpfALK_E" target="_blank">   
+        <img src="img/bangla natok/cool age.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=-Nk4_WN-8G8" target="_blank">   
+        <img src="img/bangla natok/daragon.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=DobhqYMqBCI" target="_blank">   
+        <img src="img/bangla natok/gogonondini.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=AQv8Zcblorg" target="_blank">   
+        <img src="img/bangla natok/miss shuule.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=fZR8hbPKwVE" target="_blank">   
+        <img src="img/bangla natok/rumour.jpg" alt="" >
+       </a>
+    </div>
+   
+
+  </div>
+
+  <div class="owl-carousel owl-theme owl-cars movie2">
+   
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=risUEfTEJGc" target="_blank">   
+        <img src="img/bangla natok/shuuno thaka suru.jpg" alt="" >
+       </a>
+    </div>
+
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=mySxRm25Yo4" target="_blank">   
+        <img src="img/bangla natok/wedding.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=VbkthXc2-jo" target="_blank">   
+        <img src="img/bangla natok/win and lose.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=JNMHACU7lYU" target="_blank">   
+        <img src="img/bangla natok/year mate.jpg" alt="" >
+       </a>
+    </div>
+    
+   
+  </div>
+</section>
+
+
+<!-- ********************bangla natok section end ******************** -->
+
+
+
+
+
+<!-- ******************************************music section start here*********************** -->
+
+<section class="movie">
+
+  <div class="container">
+    <h3 class="hm">বাংলা গান </h3>
+
+  </div>
+  <div class="owl-carousel owl-theme owl-cars movie-car">
+  
+
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=C-0vOChcjHo" target="_blank">   
+        <img src="img/Music/alo.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=GnWehAFliRo" target="_blank">   
+        <img src="img/Music/amar e emon.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=2Z_drR59mcg" target="_blank">   
+        <img src="img/Music/amon akta tumi chai.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=BR2vA0vLN_0" target="_blank">   
+        <img src="img/Music/aso mama ha.jpg" alt="" >
+       </a>
+    </div>
+  
+
+   
+
+  </div>
+
+  <div class="owl-carousel owl-theme owl-cars movie2">
+   
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=OB_nNRmH5y0" target="_blank">   
+        <img src="img/Music/chupi chupi.jpg" alt="" >
+       </a>
+    </div>
+
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=r9AbuWA1zjc" target="_blank">   
+        <img src="img/Music/ei obalay.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=mli5roiIW-s" target="_blank">   
+        <img src="img/Music/ghum.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=e8eSfqaaGXQ" target="_blank">   
+        <img src="img/Music/karona okarona.jpg" alt="" >
+       </a>
+    </div>
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=gviAd_TlhIQ" target="_blank">   
+        <img src="img/Music/kau kotha rakha ni.jpg" alt="" >
+       </a>
+    </div>
+   
+ 
+    <div class="item">
+      <a href="https://www.youtube.com/watch?v=zstAxX_-VgM" target="_blank">   
+        <img src="img/Music/oddisho porojibi.jpg" alt="" ><img src="img" alt="">
+       </a>
+    </div>
+   
+    
+   
+  
+   
+  </div>
+</section>
+
+
+
+<!-- ******************************************music section end here*********************** -->
+
+
+
+
+
+
+
+
+
+
+
+       <!-- ******************* Bootstrap Js Cdn*************************** -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- *******************owl carosel js cdn*************************** -->
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+
+<script>
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  // margin:3,
+  autoplay:true,
+autoplayTimeout:3000,
+autoplayHoverPause:false,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})
+
+</script>
+
+
+  </body>
+</html>

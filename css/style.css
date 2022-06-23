@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.ht {
+    color: #FFB322;
+    padding: 26px 10px;
+    border-bottom: 1px solid #e9e9e9;
+
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+.hm{
+    color: #FFB322;
+    padding: 35px 10px;
+    border-bottom: 1px solid #e9e9e9;
+}
+/*******************  header css **********************/
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+    
+   
+}
+.navbar-brand img{
+    width: 90px;
+}
+
+.nav-item a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 12px;
+    }
+
+    .nav-item a:hover{
+        color: #FFB322;
+    }
+    .dropdown-menu{
+        background-color: black;
+    }
+    .dropdown-item{
+        color: white;
+        
+    }
+    .dropdown-item:hover{
+        color: #FFB322;
+    }
+
+
+    .dropdown-item:focus, .dropdown-item:hover{
+        background-color: transparent;
+    }
+
+    .head-btn{
+        background-color: #FFB322;
+        color: rgb(255, 255, 255);
+        padding: 11px 13px;
+        outline: none;
+        font-size: 18px;
+        border: none;
+        border-radius: 11px;
+    }
+    .head-btn:hover{
+        background-color: black;
+        color: #FFB322;
+    }
+
+/* ***********banner css********************** */
+
+.banner img{
+    height: 470px;
+}
+
+
+
+/*******************  live css **********************/
+
+.owl-cars{
+    margin-top: 20px;
+}
+
+.live-sec .owl-nav  {
+display: none;
+}
+
+.live-sec .owl-carousel .owl-item img{
+    width: 90%;
+display: inline-block;
+}
+.live-sec  .owl-dots{
+    display: none;
+}
+.live-sec .owl-prev span{
+    position: absolute;
+    top: -10px;
+    color: #b90301;
+    left: -35px;
+    font-size: 90px;
+    display: none;
+ 
+ 
+}
+
+/* ********** movie css*************** */
+
+.movie  .owl-dots {
+    display: none;
+    }
+
+    .movie .owl-carousel .owl-item img {
+        display: block;
+        width: 95%;
+        border-radius: 15px;
+    }
+
+    .movie .owl-carousel .owl-item img:hover {
+       transform: scale(1.05);
+       border-radius: 15px !important;
+
+    }
+
+    .movie .movie-car{
+        position: relative;
+    }
+    .movie-car .owl-prev span {
+        position: absolute;
+        left: 49px;
+        color: yellow;
+        top: 148px;
+        height: 15%;
+        width: 5%;
+        background: #b5aaaa4b;
+        border-radius: 50%;
+        font-size: 40px;
+        opacity: 0;
+    }
+    .movie-car .owl-prev span:hover{
+        opacity: 1;
+    }
+
+    .movie-car  .owl-next  span{
+        position: absolute;
+        right: 49px;
+        color: yellow;
+        top: 148px;
+        height: 15%;
+        width: 5%;
+        background: #b5aaaa4b;
+        border-radius: 50%;
+        font-size: 40px;
+        opacity: 0;
+    }
+
+    .movie-car  .owl-next  span:hover  {
+    opacity: 1;
+
+
+    }
+    .movie .movie2{
+        position: relative;
+    }
+    .movie2 .owl-prev span {
+        position: absolute;
+        left: 49px;
+        color: yellow;
+        top: 148px;
+        height: 15%;
+        width: 5%;
+        background: #b5aaaa9f;
+        border-radius: 50%;
+        font-size: 40px;
+        opacity: 0;
+    }
+    .movie2 .owl-prev span:hover{
+        opacity: 1;
+    }
+
+    .movie2  .owl-next  span{
+        position: absolute;
+        right: 49px;
+        color: yellow;
+        top: 148px;
+        height: 15%;
+        width: 5%;
+        background: #b5aaaa9f;
+        border-radius: 50%;
+        font-size: 40px;
+        opacity: 0;
+    }
+
+    .movie2  .owl-next  span:hover  {
+    opacity: 1;
+
+
+    }
+
+
+    /* *****************banner 1 section css*********************** */
+    .banner01{
+        padding: 65px 0px;
+        
+ 
+    }
+
+    .banner01 .banner-right img{
+        width: 600px;
+        margin-left: 150px;
+       
+    }
+
+    .banner-mid{
+        display: flex;
+        justify-content: space-around !important;
+        height: 70vh;
+     
+        position: absolute;
+      top: 0px;
+      left: 40px;
+      align-items: center;
+    }
+
+    .first{
+        background-image: url(../img/banner/W1SwqW0TUoX.jpg);
+        background-repeat: no-repeat;
+    background-position: center;
+        background-size: cover;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+  width: 100%;
+  height: 80vh;
+  
+      
+    }
+
+    .send{
+        background-image: url(../img/banner/PWuwstqecpZ.jpg);
+        background-repeat: no-repeat;
+    background-position: center;
+        background-size: cover;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+  width: 100%;
+  height: 80vh;
+    }
+    
+    .thirt{
+        background-image: url(../img/banner/peQZzUNOwkF.jpg);
+        background-repeat: no-repeat;
+    background-position: center;
+        background-size: cover;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+  width: 100%;
+  height: 80vh;
+
+    }
+    .banner01 .carousel-control-prev-icon span{
+        color: yellow;
+        top: 148px;
+        height: 15%;
+        width: 5%;
+        background: #b5aaaa9f;
+        border-radius: 50%;
+        font-size: 40px;
+    }
+
+
+
+
+    /* *****************kolkata movie Css************************** */
+
+    .movie01  .owl-dots {
+        display: none;
+        }
+    
+        .movie01 .owl-carousel .owl-item img {
+            display: block;
+            width: 95%;
+            border-radius: 15px;
+        }
+    
+        .movie01 .owl-carousel .owl-item img:hover {
+           transform: scale(1.05);
+           border-radius: 15px !important;
+    
+        }
+    
+        .movie01 .movie-kol{
+            position: relative;
+        }
+        .movie-kol .owl-prev span {
+            position: absolute;
+            left: 49px;
+            color: yellow;
+            top: 148px;
+            height: 15%;
+            width: 5%;
+            background: #b5aaaa4b;
+            border-radius: 50%;
+            font-size: 40px;
+            opacity: 0;
+        }
+        .movie-kol .owl-prev span:hover{
+            opacity: 1;
+        }
+    
+        .movie-kol  .owl-next  span{
+            position: absolute;
+            right: 49px;
+            color: yellow;
+            top: 148px;
+            height: 15%;
+            width: 5%;
+            background: #b5aaaa4b;
+            border-radius: 50%;
+            font-size: 40px;
+            opacity: 0;
+        }
+    
+        .movie-kol  .owl-next  span:hover  {
+        opacity: 1;
+    
+    
+        }
+   
+        .movie01 .movie20{
+            position: relative;
+        }
+        .movie20 .owl-prev span {
+            position: absolute;
+            left: 49px;
+            color: yellow;
+            top: 148px;
+            height: 15%;
+            width: 5%;
+            background: #b5aaaa4b;
+            border-radius: 50%;
+            font-size: 40px;
+            opacity: 0;
+        }
+        .movie20 .owl-prev span:hover{
+            opacity: 1;
+        }
+    
+        .movie20  .owl-next  span{
+            position: absolute;
+            right: 49px;
+            color: yellow;
+            top: 148px;
+            height: 15%;
+            width: 5%;
+            background: #b5aaaa4b;
+            border-radius: 50%;
+            font-size: 40px;
+            opacity: 0;
+        }
+    
+        .movie20  .owl-next  span:hover  {
+        opacity: 1;
+    
+    
+        }
+   
+  
